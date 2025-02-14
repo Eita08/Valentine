@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación para San Valentin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="Icon" href="images/teddy-bear.png" type="images/png">    
+</head>
+<body>
+    <div class="hearts"></div>
+    <div class="container">
+        
+        <div class="step active" id="step1">
+            <img src="images/step2.gif" alt="Cute Bear" class="bear-img">
+        <h1>Bebecita, Feliz San Valentin</h1>
+            <p>Corazón de melón, en este día quisiera invitarte a que celebremos juntos y tengamos un lindo día en pareja, creemos bonitos recuerdo y así todo bonito.</p>
+                <div id="question">
+                    <br>
+                <p>¿Serías mi Valentin?</p>
+                      <br>
+                <button class="btn btn-yes" onclick="goToStep2()">Si</button>
+                <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">No</button>
+            </div>
+        </div>
+
+        <div class="step" id="step2">
+            <img src="images/dudu-twisting-dance.gif" alt="Cute Bear with Hearts" class="bear-img">
+            <h1>¿Estás segura de ser mi Valentin?💕</h1>
+            <div class="buttons">
+                <button class="btn btn-yes" onclick="goToStep3()">Si, 100% segura.</button>
+                <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">Dejame pensarlo...</button>
+            </div>
+        </div>
+
+        <div class="step" id="step3">
+            <img src="images/step22.gif" alt="Cute Bear in Love" class="bear-img">
+            <h1>Prométeme que siempre serás mi valentin.❤️</h1>
+            <div class="buttons">
+                <button class="btn btn-yes" onclick="finalStep()">Si, lo prometo.</button>
+            </div>
+        </div>
+
+        <div class="final-message">
+            <img src="images/stafford-matt-unscreen.gif" alt="Cute Bear in Love" class="bear-img">
+            <p>Ohsiiiii, haz hecho este día muy especial para mi, Te amo.</p>
+            <p style="margin-top: 15px;">Puedes mandarme mensajito de confirmación aquí abajo</p>
+        </div>
+
+        <a href="https://wa.me/qr/P6Z3TG7V73IGJ1" class="whatsapp-btn" target="_blank">
+            Mandame mensajito🥰
+        </a>
+        </div>
+        <!-- Script JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
